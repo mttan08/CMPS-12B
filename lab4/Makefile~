@@ -1,0 +1,19 @@
+# ----------------------------------------------------------------------------
+# Makefile for charType.c
+# Matthew Tan
+# mxtan
+# CMPS 12B/M
+# ----------------------------------------------------------------------------
+
+charType: charType.o
+	gcc -o charType charType.o
+
+charType.o: charType.c
+	gcc -c -std=c99 -Wall charType.c
+
+clean:
+	rm -f charType charType.o
+
+submit:
+	submit cmps012b-pt.u16 lab3 README Makefile charType.c
+

@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<ctype.h>
+#include<assert.h>
+
+#define MAX_STRING_LENGTH 1000
+
+void extract_chars(char* s, char* a, char* d, char* p, char* w);
+
+void extract_chars(char* s, char* a, char* d, char* p, char* w)
+{
+    int i = 0;
+    int j = 0;
+    while (s[i] != '\0' && i < MAX_SS
+}
+
+int main()
+{
+    
+}

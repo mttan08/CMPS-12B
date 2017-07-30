@@ -1,0 +1,356 @@
+Line is: abc h63  8ur-)(*&yhq!~ `xbv
+
+extract_chars: Before loop: s is: abc h63  8ur-)(*&yhq!~ `xbv
+
+extract_chars: During loop: s is: abc h63  8ur-)(*&yhq!~ `xbv
+
+a[j] is: a
+j is: 0
+s[i] is: a
+i is: 0
+extract_chars: During loop: s is: abc h63  8ur-)(*&yhq!~ `xbv
+
+a[j] is: b
+j is: 1
+s[i] is: b
+i is: 1
+extract_chars: During loop: s is: abc h63  8ur-)(*&yhq!~ `xbv
+
+a[j] is: c
+j is: 2
+s[i] is: c
+i is: 2
+extract_chars: During loop: s is: abc h63  8ur-)(*&yhq!~ `xbv
+
+extract_chars: During loop: s is: abc h63  8ur-)(*&yhq!~ `xbv
+
+a[j] is: h
+j is: 3
+s[i] is: h
+i is: 4
+extract_chars: During loop: s is: abc h63  8ur-)(*&yhq!~ `xbv
+
+extract_chars: During loop: s is: abc h63  8ur-)(*&yhq!~ `xbv
+
+extract_chars: During loop: s is: abc h63  8ur-)(*&yhq!~ `xbv
+
+extract_chars: During loop: s is: abc h63  8ur-)(*&yhq!~ `xbv
+
+extract_chars: During loop: s is: abc h63  8ur-)(*&yhq!~ `xbv
+
+extract_chars: During loop: s is: abc h63  8ur-)(*&yhq!~ `xbv
+
+a[j] is: u
+j is: 4
+s[i] is: u
+i is: 10
+extract_chars: During loop: s is: abc h63  8ur-)(*&yhq!~ `xbv
+
+a[j] is: r
+j is: 5
+s[i] is: r
+i is: 11
+extract_chars: During loop: s is: abc h63  8ur-)(*&yhq!~ `xbv
+
+extract_chars: During loop: s is: abc h63  8ur-)(*&yhq!~ `xbv
+
+extract_chars: During loop: s is: abc h63  8ur-)(*&yhq!~ `xbv
+
+extract_chars: During loop: s is: abc h63  8ur-)(*&yhq!~ `xbv
+
+extract_chars: During loop: s is: abc h63  8ur-)(*&yhq!~ `xbv
+
+extract_chars: During loop: s is: abc h63  8ur-)(*&yhq!~ `xbv
+
+a[j] is: y
+j is: 6
+s[i] is: y
+i is: 17
+extract_chars: During loop: s is: abc h63  8ur-)(*&yhq!~ `xbv
+
+a[j] is: h
+j is: 7
+s[i] is: h
+i is: 18
+extract_chars: During loop: s is: abc h63  8ur-)(*&yhq!~ `xbv
+
+a[j] is: q
+j is: 8
+s[i] is: q
+i is: 19
+extract_chars: During loop: s is: abc h63  8ur-)(*&yhq!~ `xbv
+
+extract_chars: During loop: s is: abc h63  8ur-)(*&yhq!~ `xbv
+
+extract_chars: During loop: s is: abc h63  8ur-)(*&yhq!~ `xbv
+
+extract_chars: During loop: s is: abc h63  8ur-)(*&yhq!~ `xbv
+
+extract_chars: During loop: s is: abc h63  8ur-)(*&yhq!~ `xbv
+
+a[j] is: x
+j is: 9
+s[i] is: x
+i is: 24
+extract_chars: During loop: s is: abc h63  8ur-)(*&yhq!~ `xbv
+
+a[j] is: b
+j is: 10
+s[i] is: b
+i is: 25
+extract_chars: During loop: s is: abc h63  8ur-)(*&yhq!~ `xbv
+
+a[j] is: v
+j is: 11
+s[i] is: v
+i is: 26
+extract_chars: During loop: s is: abc h63  8ur-)(*&yhq!~ `xbv
+
+Before passing back: a is:  abchuryhqxbv
+Calling extract: alpha is: abchuryhqxbv
+alpha string length is: 12
+Line is: JKL*()#$$%345~!@? ><mnb
+
+extract_chars: Before loop: s is: JKL*()#$$%345~!@? ><mnb
+
+extract_chars: During loop: s is: JKL*()#$$%345~!@? ><mnb
+
+a[j] is: J
+j is: 0
+s[i] is: J
+i is: 0
+extract_chars: During loop: s is: JKL*()#$$%345~!@? ><mnb
+
+a[j] is: K
+j is: 1
+s[i] is: K
+i is: 1
+extract_chars: During loop: s is: JKL*()#$$%345~!@? ><mnb
+
+a[j] is: L
+j is: 2
+s[i] is: L
+i is: 2
+extract_chars: During loop: s is: JKL*()#$$%345~!@? ><mnb
+
+extract_chars: During loop: s is: JKL*()#$$%345~!@? ><mnb
+
+extract_chars: During loop: s is: JKL*()#$$%345~!@? ><mnb
+
+extract_chars: During loop: s is: JKL*()#$$%345~!@? ><mnb
+
+extract_chars: During loop: s is: JKL*()#$$%345~!@? ><mnb
+
+extract_chars: During loop: s is: JKL*()#$$%345~!@? ><mnb
+
+extract_chars: During loop: s is: JKL*()#$$%345~!@? ><mnb
+
+extract_chars: During loop: s is: JKL*()#$$%345~!@? ><mnb
+
+extract_chars: During loop: s is: JKL*()#$$%345~!@? ><mnb
+
+extract_chars: During loop: s is: JKL*()#$$%345~!@? ><mnb
+
+extract_chars: During loop: s is: JKL*()#$$%345~!@? ><mnb
+
+extract_chars: During loop: s is: JKL*()#$$%345~!@? ><mnb
+
+extract_chars: During loop: s is: JKL*()#$$%345~!@? ><mnb
+
+extract_chars: During loop: s is: JKL*()#$$%345~!@? ><mnb
+
+extract_chars: During loop: s is: JKL*()#$$%345~!@? ><mnb
+
+extract_chars: During loop: s is: JKL*()#$$%345~!@? ><mnb
+
+extract_chars: During loop: s is: JKL*()#$$%345~!@? ><mnb
+
+extract_chars: During loop: s is: JKL*()#$$%345~!@? ><mnb
+
+a[j] is: m
+j is: 3
+s[i] is: m
+i is: 20
+extract_chars: During loop: s is: JKL*()#$$%345~!@? ><mnb
+
+a[j] is: n
+j is: 4
+s[i] is: n
+i is: 21
+extract_chars: During loop: s is: JKL*()#$$%345~!@? ><mnb
+
+a[j] is: b
+j is: 5
+s[i] is: b
+i is: 22
+extract_chars: During loop: s is: JKL*()#$$%345~!@? ><mnb
+
+Before passing back: a is:  JKLmnb
+Calling extract: alpha is: JKLmnb
+alpha string length is: 6
+Line is: afst ey64    YDNC&
+
+extract_chars: Before loop: s is: afst ey64    YDNC&
+
+extract_chars: During loop: s is: afst ey64    YDNC&
+
+a[j] is: a
+j is: 0
+s[i] is: a
+i is: 0
+extract_chars: During loop: s is: afst ey64    YDNC&
+
+a[j] is: f
+j is: 1
+s[i] is: f
+i is: 1
+extract_chars: During loop: s is: afst ey64    YDNC&
+
+a[j] is: s
+j is: 2
+s[i] is: s
+i is: 2
+extract_chars: During loop: s is: afst ey64    YDNC&
+
+a[j] is: t
+j is: 3
+s[i] is: t
+i is: 3
+extract_chars: During loop: s is: afst ey64    YDNC&
+
+extract_chars: During loop: s is: afst ey64    YDNC&
+
+a[j] is: e
+j is: 4
+s[i] is: e
+i is: 5
+extract_chars: During loop: s is: afst ey64    YDNC&
+
+a[j] is: y
+j is: 5
+s[i] is: y
+i is: 6
+extract_chars: During loop: s is: afst ey64    YDNC&
+
+extract_chars: During loop: s is: afst ey64    YDNC&
+
+extract_chars: During loop: s is: afst ey64    YDNC&
+
+extract_chars: During loop: s is: afst ey64    YDNC&
+
+extract_chars: During loop: s is: afst ey64    YDNC&
+
+extract_chars: During loop: s is: afst ey64    YDNC&
+
+extract_chars: During loop: s is: afst ey64    YDNC&
+
+a[j] is: Y
+j is: 6
+s[i] is: Y
+i is: 13
+extract_chars: During loop: s is: afst ey64    YDNC&
+
+a[j] is: D
+j is: 7
+s[i] is: D
+i is: 14
+extract_chars: During loop: s is: afst ey64    YDNC&
+
+a[j] is: N
+j is: 8
+s[i] is: N
+i is: 15
+extract_chars: During loop: s is: afst ey64    YDNC&
+
+a[j] is: C
+j is: 9
+s[i] is: C
+i is: 16
+extract_chars: During loop: s is: afst ey64    YDNC&
+
+extract_chars: During loop: s is: afst ey64    YDNC&
+
+Before passing back: a is:  afsteyYDNC
+Calling extract: alpha is: afsteyYDNC
+alpha string length is: 10
+Line is: hfdjs9*&^^%$tre":L
+
+extract_chars: Before loop: s is: hfdjs9*&^^%$tre":L
+
+extract_chars: During loop: s is: hfdjs9*&^^%$tre":L
+
+a[j] is: h
+j is: 0
+s[i] is: h
+i is: 0
+extract_chars: During loop: s is: hfdjs9*&^^%$tre":L
+
+a[j] is: f
+j is: 1
+s[i] is: f
+i is: 1
+extract_chars: During loop: s is: hfdjs9*&^^%$tre":L
+
+a[j] is: d
+j is: 2
+s[i] is: d
+i is: 2
+extract_chars: During loop: s is: hfdjs9*&^^%$tre":L
+
+a[j] is: j
+j is: 3
+s[i] is: j
+i is: 3
+extract_chars: During loop: s is: hfdjs9*&^^%$tre":L
+
+a[j] is: s
+j is: 4
+s[i] is: s
+i is: 4
+extract_chars: During loop: s is: hfdjs9*&^^%$tre":L
+
+extract_chars: During loop: s is: hfdjs9*&^^%$tre":L
+
+extract_chars: During loop: s is: hfdjs9*&^^%$tre":L
+
+extract_chars: During loop: s is: hfdjs9*&^^%$tre":L
+
+extract_chars: During loop: s is: hfdjs9*&^^%$tre":L
+
+extract_chars: During loop: s is: hfdjs9*&^^%$tre":L
+
+extract_chars: During loop: s is: hfdjs9*&^^%$tre":L
+
+extract_chars: During loop: s is: hfdjs9*&^^%$tre":L
+
+a[j] is: t
+j is: 5
+s[i] is: t
+i is: 12
+extract_chars: During loop: s is: hfdjs9*&^^%$tre":L
+
+a[j] is: r
+j is: 6
+s[i] is: r
+i is: 13
+extract_chars: During loop: s is: hfdjs9*&^^%$tre":L
+
+a[j] is: e
+j is: 7
+s[i] is: e
+i is: 14
+extract_chars: During loop: s is: hfdjs9*&^^%$tre":L
+
+extract_chars: During loop: s is: hfdjs9*&^^%$tre":L
+
+extract_chars: During loop: s is: hfdjs9*&^^%$tre":L
+
+a[j] is: L
+j is: 8
+s[i] is: L
+i is: 17
+extract_chars: During loop: s is: hfdjs9*&^^%$tre":L
+
+Before passing back: a is:  hfdjstreL
+Calling extract: alpha is: hfdjstreL
+alpha string length is: 9

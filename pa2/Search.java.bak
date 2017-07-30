@@ -1,0 +1,160 @@
+// -------------------------------------------------------------------------
+// Search.java
+// Matthew Tan
+// mxtan
+// CMPS 12B/M
+// -------------------------------------------------------------------------
+
+import java.io.*;
+import java.util.*;
+
+public class Search
+{
+    public static void mergeSort(String[] word, int[] lineNumber, int p, int r)
+    {
+        int q;
+        if (p < r)
+        {
+            q = (p + r) / 2;
+            mergeSort(word, lineNumber, p, q);
+            mergeSort(word, lineNumber, q + 1, r);
+            merge(word, lineNumber, p, q, r);
+        }
+    }
+
+    public static void merge(String[] word, int[] lineNumber, int p, int q, int r)
+    {
+        int leftIndices = q - p + 1;
+        int rightIndices = r - q;
+        String[] L = new String[leftIndices];
+        String[] R = new String[rightIndices];
+        int[] leftHalf = new int[leftIndices];
+        int[] rightHalf = new int[rightIndices];
+        int i, j, k;
+
+        for (i = 0; i < leftIndices; i++)
+        {
+            L[i] = word[p + i];
+            leftHalf[i] = lineNumber[p + i];
+        }
+
+        for (j = 0; j < rightIndices; j++)
+        {
+            R[j] = word[q + j + 1];
+            rightHalf[j] = lineNumber[q + j + 1];
+        }
+
+        i = 0; j = 0;
+        for (k = p; k <= r; k++)
+        {
+            if (i < leftIndices && j < rightIndices)
+            {
+                if (L[i].compareTo(R[j]) <  0)
+                {
+                    word[k] = L[i];
+                    lineNumber[k] = leftHalf[i];
+                    i++;
+                }
+                else
+                {
+                    word[k] = R[j];
+                    lineNumber[k] = rightHalf[j];
+                    j++;
+                }
+            }
+            else if (i < leftIndices)
+            {
+                word[k] = L[i];
+                lineNumber[k] = leftHalf[i];
+                i++;
+            }
+            else
+            {
+                word[k] = R[j];
+                lineNumber[k] = rightHalf[j];
+                j++;
+            }
+        }
+    }
+
+    public static String binarySearch(String[] word, int[] lineNumber, 
+           int p, int r, String target)
+    {
+        int q;
+        if (p > r)
+        {
+            return target + " not found";
+        }
+        else
+        {
+            q = (p + r) / 2;
+            if (word[q].compareTo(target) == 0)
+            {
+                return target + " found on line " + lineNumber[q];
+            }
+            else if (word[q].compareTo(target) > 0)
+            {
+                return binarySearch(word, lineNumber, p, q - 1, target) + "\n";
+            }
+            else
+            {
+                return binarySearch(word, lineNumber, q + 1, r, target);
+            }
+        }
+    }
+
+    public static void main(String[] args) throws IOException
+    {
+        Scanner in = null;
+        String line = null;
+        String[] temp = new String[1000];
+        String[] word = null;
+        int i, n = 0, lineNumber = 0;
+        int[] countLineNumbers = null;
+
+        if (args.length < 2)
+        {
+            System.out.println("Usage: Search file target1 [target2...]");
+            System.exit(1);
+        }
+        
+        in = new Scanner(new File(args[0]));
+
+        while (in.hasNextLine())
+        {
+            temp[n] = in.nextLine();
+            n++;
+        }
+
+        word = new String[n];
+        for (int j = 0; j < n; j++)
+        {
+            word[j] = temp[j];
+        }
+
+        countLineNumbers = new int[n];
+
+        while (in.hasNextLine())
+        {
+            in.nextLine();
+            lineNumber++;
+        }
+
+        for (int k = 1; k < countLineNumbers.length; k++)
+        {
+            countLineNumbers[k - 1] = k;
+        }
+     
+        mergeSort(word, countLineNumbers, 0, word.length - 1);
+        
+        for(int h = 1; h < args.length; h++)
+        {
+            System.out.print(binarySearch(word, countLineNumbers, 0, 
+               word.length - 1, args[h]));
+        }
+        System.out.println();
+
+        in.close();
+        
+    }
+}

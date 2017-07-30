@@ -1,0 +1,50 @@
+p: 0 r: 10 q: 5
+p: 0 r: 5 q: 2
+p: 0 r: 2 q: 1
+p: 0 r: 1 q: 0
+p == r: return p: 0 r: 0 q: 0 min: 0
+p: 0 r: 1 q: 0 left: 0
+p == r: return p: 1 r: 1 q: 0 min: 0
+p: 0 r: 1 q: 0 right: 0
+p: 0 r: 2 q: 1 left: 0
+p == r: return p: 2 r: 2 q: 0 min: 0
+p: 0 r: 2 q: 1 right: 0
+p: 0 r: 5 q: 2 left: 1
+p: 3 r: 5 q: 4
+p: 3 r: 4 q: 3
+p == r: return p: 3 r: 3 q: 0 min: 0
+p: 3 r: 4 q: 3 left: 0
+p == r: return p: 4 r: 4 q: 0 min: 0
+p: 3 r: 4 q: 3 right: 0
+p: 3 r: 5 q: 4 left: 3
+p == r: return p: 5 r: 5 q: 0 min: 0
+p: 3 r: 5 q: 4 right: 0
+Case 2: left: 3 right: 0 q: 0 min: 0 X[left]: 12 X[right]: -1
+p: 0 r: 5 q: 2 right: 0
+Case 2: left: 1 right: 0 q: 0 min: 0 X[left]: 2 X[right]: -1
+p: 0 r: 10 q: 5 left: 0
+p: 6 r: 10 q: 8
+p: 6 r: 8 q: 7
+p: 6 r: 7 q: 6
+p == r: return p: 6 r: 6 q: 0 min: 0
+p: 6 r: 7 q: 6 left: 0
+p == r: return p: 7 r: 7 q: 0 min: 0
+p: 6 r: 7 q: 6 right: 0
+p: 6 r: 8 q: 7 left: 6
+p == r: return p: 8 r: 8 q: 0 min: 0
+p: 6 r: 8 q: 7 right: 0
+p: 6 r: 10 q: 8 left: 6
+p: 9 r: 10 q: 9
+p == r: return p: 9 r: 9 q: 0 min: 0
+p: 9 r: 10 q: 9 left: 0
+p == r: return p: 10 r: 10 q: 0 min: 0
+p: 9 r: 10 q: 9 right: 0
+p: 6 r: 10 q: 8 right: 9
+p: 0 r: 10 q: 5 right: 6
+Case 2: left: 0 right: 6 q: 6 min: 6 X[left]: -1 X[right]: -5
+-1 2 6 12 9 2 -5 -2 8 5 7 
+minIndex = 6
+maxIndex = 3
+7 5 8 -2 -5 2 9 12 6 2 -1 
+7 5 8 -2 -5 2 9 12 6 2 -1 
+7 5 8 -2 -5 2 -5 -2 8 5 7 

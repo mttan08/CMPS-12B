@@ -1,0 +1,13 @@
+// --------------------------------------------------------------------------
+// README for pa5
+// Matthew Tan
+// mxtan
+// pa5
+// CMPS 12B/M
+// --------------------------------------------------------------------------
+1) README
+2) Dictionary.c
+3) Dictionary.h
+4) DictionaryTest.c
+5) DictionaryClient.c
+6) Makefile

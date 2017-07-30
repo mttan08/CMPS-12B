@@ -1,0 +1,14 @@
+// --------------------------------------------------------------------------
+// README for lab7
+// Matthew Tan
+// mxtan
+// lab7
+// CMPS 12B/M
+// --------------------------------------------------------------------------
+1) DictionaryInterface.java
+2) DuplicateKeyException.java
+3) KeyNotFoundException.java
+4) DictionaryClient.java
+5) Dictionary.java
+6) Makefile
+7) README

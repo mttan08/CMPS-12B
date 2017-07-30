@@ -1,0 +1,13 @@
+// ---------------------------------------------------------------------------
+// README for lab6
+// Matthew Tan
+// mxtan
+// lab6
+// CMPS 12B/M
+// ---------------------------------------------------------------------------
+1) List.java
+2) Makefile
+3) ListTest.java
+4) ListInterface.java
+5) ListIndexOutOfBoundException.java
+6) ListClient.java

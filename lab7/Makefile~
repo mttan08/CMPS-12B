@@ -1,0 +1,31 @@
+# ---------------------------------------------------------------------------
+# Makefile for lab7
+# Matthew Tan
+# mxtan
+# lab7
+# CMPS 12B/M
+# ---------------------------------------------------------------------------
+
+# Variables
+JARFILE    = DictionaryClient
+MAINCLASS  = DictionaryClient
+SOURCES    = Dictionary.java DictionaryInterface.java DictionaryClient.java\
+             DuplicateKeyException.java KeyNotFoundException.java
+CLASSES    = Dictionary.class DictionaryInterface.class DictionaryClient.class Dictionary\$$Node.class\
+             DuplicateKeyException.class KeyNotFoundException.clas
+
+
+# Build Targets
+all: $(JARFILE)
+
+$(JARFILE): $(CLASSES)
+	echo Main-class: $(MAINCLASS) > Manifest
+	jar cvfm $(JARFILE) Manifest $(CLASSES)
+	rm Manifest
+	chmod +x $(JARFILE)
+
+$(CLASSES): $(SOURCES)
+	javac -Xlint $(SOURCES)  
+
+clean:
+	rm -f $(CLASSES) $(JARFILE)

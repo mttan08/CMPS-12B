@@ -1,0 +1,168 @@
+// -------------------------------------------------------------------------
+// List.java
+// Matthew Tan
+// mxtan
+// lab6
+// CMPS 12B/M
+// -------------------------------------------------------------------------
+
+@SuppressWarnings("overrides")
+public class List<T> implements ListInterface<T>
+{
+    private class Node 
+    {
+        private T item;
+        Node next;
+
+        private Node(T x)
+        {
+            item = x;
+            next = null;
+        }
+    }
+    
+    private Node head;
+    private int numItems;
+    
+    public List()
+    {
+        head = null;
+        numItems = 0;
+    }
+
+    private Node find(int index)
+    {
+        Node N = head;
+        for (int i = 1; i < index; i++)
+        {
+            N = N.next;
+        }
+        return N;
+    }
+
+    public boolean isEmpty()
+    {
+        /*
+        if (numItems == 0)
+        {
+            return true;
+        }
+        else
+        {
+            return false'
+        }
+        */
+        return (numItems == 0);
+    }
+
+    public int size()
+    {
+        return numItems;
+    }
+
+    public T get(int index) throws ListIndexOutOfBoundsException
+    {
+        if (index < 1 || index > numItems)
+        {
+            throw new ListIndexOutOfBoundsException(
+                  "get(): invalid index: " + index);
+        }
+        else
+        {
+            Node N = find(index);
+            return N.item;
+        }
+    }
+
+    public void add(int index, T newItem) throws ListIndexOutOfBoundsException
+    {
+        if (index < 1 || index > (numItems + 1))
+        {
+            throw new ListIndexOutOfBoundsException(
+                  "add(): invalid index: " + index);
+        }
+
+        if (index == 1)
+        {
+            Node N = new Node(newItem);
+            N. next = head;
+            head = N;
+        }
+        else
+        {
+            Node P = find(index - 1);
+            Node S = P.next;
+            P.next = new Node(newItem);
+            P = P.next;
+            P.next = S;
+        }
+        numItems++;
+    }
+    
+    public void remove(int index) throws ListIndexOutOfBoundsException
+    {
+        if (index < 1 || index > numItems)
+        {
+            throw new ListIndexOutOfBoundsException(
+                  "remove(): invalid index: " + index);
+        }
+
+        if (index == 1)
+        {
+            Node N = head;
+            head = head.next;
+            N.next = null;
+        }
+        else
+        {
+            Node P = find(index - 1);
+            Node S = P.next;
+            P.next = S.next;
+            S.next = null;
+        }
+        numItems--;
+    }
+
+    public void removeAll()
+    {
+        head = null;
+        numItems = 0;
+    }
+
+    public String toString()
+    {
+        StringBuffer sb = new StringBuffer();
+        Node N = head;
+        while (N != null)
+        {
+            sb.append(N.item).append(" ");
+            N = N.next;
+        }
+        return new String(sb);
+    }
+
+    @SuppressWarnings("unchecked")
+    public boolean equals(Object compare) 
+    {
+        boolean equals = false;
+        List<T> list = null;
+        Node N = null;
+        Node M = null;
+
+        if (this.getClass() == compare.getClass()) 
+        {
+            list = (List<T>) compare;
+            equals = (this.numItems == list.numItems);
+
+            N = this.head;
+            M = list.head;
+            while (equals && N != null) 
+            {
+                equals = (N.item == M.item);
+                N = N.next;
+                M = M.next;
+            }
+        }
+        return equals;
+    }
+}

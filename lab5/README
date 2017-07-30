@@ -1,0 +1,12 @@
+// --------------------------------------------------------------------------
+// README for lab5
+// Matthew Tan
+// mxtan
+// CMPS 12B/M
+// --------------------------------------------------------------------------
+1) README
+2) Makefile
+3) Dictionary.c
+4) DictionaryTest.c
+5) Dictionary.h
+6) DictionaryClient.c

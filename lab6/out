@@ -1,0 +1,20 @@
+A: one two three 
+B: ten twenty thirty 
+C: one two three  ten twenty thirty  
+A.equals(A) is true
+A.equals(B) is false
+A.equals(C) is false
+A.size() is 3
+B.size() is 3
+C.size() is 2
+A.size() is 2
+B.size() is 2
+B.get(1) is ten
+C: two three  ten thirty  
+
+Caught Exception: 
+ListIndexOutOfBoundsException: get(): invalid index: 200
+Continuing without interuption
+
+A.get(2) is three
+C.get(1) is two three 
